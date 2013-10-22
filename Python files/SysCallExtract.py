@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+
+####### STIDE Technique #######
+###### Shayan Eskandari #######
+###### MIT Copyleft License ######
+
 import fileinput
 import os
 
@@ -38,6 +43,6 @@ def window(seq):	# to extract windows of size W with the shift size of K from th
 
 os.chdir(path)
 for i in xrange(1,36):		
-#	parsefile(file + str(i)) 		# To extract sequences from the raw files, the i would be the number in the file name
+	parsefile(file + str(i)) 		# To extract sequences from the raw files, the i would be the number in the file name
 	window(file + str(i) + "-seq.txt")		# to extract windows of size W with the shift size of K from the sequence files (-seq)
 
