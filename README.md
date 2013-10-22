@@ -18,23 +18,29 @@ DESCRIPTION OF FILES
 -+ Presentation and Paper
 ------ Presentation.pdf
 ------ FInal Report.pdf
+
 --> Problem description and details regarding the dataset and methods.
+
 
 -+ Sample Data
 -----+ Anubis-good
 -----+ Malware
+
 -->Sample files from the dataset used in this project.
 	for further information you can check these links:
 		http://anubis.iseclab.org/
 		http://anubis.iseclab.org/?action=publications
 	
+	
 -+ Sample outputs
+
 --> Sample output files from the python folder.
 
 
 -+ Python files
+
 ------ compare_STIDE.py
-STIDE technique implementation with Python
+->STIDE technique implementation with Python
 
 ------ SysCallExtract.py
 -> Extract system call number sequences from the Anubis Dataset
