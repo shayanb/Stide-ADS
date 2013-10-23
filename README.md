@@ -12,7 +12,9 @@ If you're doing Anomaly Detection System based on Linux System Call level sequen
 STIDE technique Readings:
 ------------------------
 1- S. Forrest, S. Hofmeyr, A. SoMayaji, and T. Longstaff, “A sense of self for Unix processes,” in Security and Privacy, 1996. Proceedings., 1996 IEEE Symposium on, May. 1996, pp. 120–128.
+
 2- S. Forrest, S. A. Hofmeyr, and A. SoMayaji, “Computer immunology,” Commun. ACM, vol. 40, no. 10, pp. 88–96, Oct. 1997.[Online]. Available: http://doi.acm.org/10.1145/262793.262811 
+
 3- S. A. Hofmeyr, S. Forrest, and A. SoMayaji, “Intrusion detection using sequences of system calls.” Journal of Computer Security, vol. 6, no. 3, p. 151, 1998. [Online]. Available: http://search.ebscohost.com/login.aspx?
 direct=true&db=tsh&AN=1531432&site=ehost- live
 
@@ -21,19 +23,30 @@ DESCRIPTION OF FILES
 
 
 -+ Presentation and Paper
+
 ------ Presentation.pdf
+
 ------ FInal Report.pdf
+
 
 --> Problem description and details regarding the dataset and methods.
 
 
+
 -+ Sample Data
+
 -----+ Anubis-good
+
 -----+ Malware
 
+
+
 -->Sample files from the dataset used in this project.
+
 	for further information you can check these links:
+
 		http://anubis.iseclab.org/
+
 		http://anubis.iseclab.org/?action=publications
 	
 	
@@ -45,10 +58,14 @@ DESCRIPTION OF FILES
 -+ Python files
 
 ------ compare_STIDE.py
+
 ->STIDE technique implementation with Python
 
+
 ------ SysCallExtract.py
+
 -> Extract system call number sequences from the Anubis Dataset
+
 you can change the window size and the shift size by changing the W and K values
 
 
