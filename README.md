@@ -5,10 +5,6 @@ System Call based Anomaly Detection System
 Python - STIDE technique (sequence time-delay embedding)
 
 
-This was a project for my data mining class.
-
-If you're doing Anomaly Detection System based on Linux System Call level sequence analysis or anything related to system call sequences this may come in handy.
-
 STIDE technique Readings:
 ------------------------
 Forrest et al. employed a methodology motivated by immune systems. 
